@@ -1,10 +1,11 @@
 import React from "react";
+import "./Card.css";
 
 const Card = ({ id, name, username, email }) => {
   return (
-    <div className="tc bg-light-green dib br3 ma2 grow bw2 shadow-5 shadow-hover">
+    <div className="tc grad dib br3 ma2 grow bw2 shadow-5 shadow-hover">
       <img
-        src={`https://robohash.org/${username + id}?200x200`}
+        src={`https://robohash.org/${username + id}?150x150`}
         alt="Robo Img"
       />
       <div>
